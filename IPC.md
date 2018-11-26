@@ -11,8 +11,9 @@ In a multi-core machine, each CPU executes code simultaneously,
 so whether the current CPU has disabled interrupts does not avoid other CPU from entering the same region.
 
 ### **2.2**
-  It is unwise to give user processes the power to turn off interrupts, because it could be that
-
+  It is unwise to give user processes the power to turn off interrupts, 
+  because it could be that the user process disables iterupts accidentally.
+ 
 
 ## 3 Peterson's Solution
 ### **3.1**
